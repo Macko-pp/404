@@ -7,7 +7,7 @@ import webbrowser
 
 st.title("404")
 st.header("Page not Found")
-st.subheader("This Company no longer exists")
+st.subheader("This page no longer exists")
 co1, co2, co3, co4, co5 = st.beta_columns(5)
 
 #DownArrow---------------------------------------------------------------------
