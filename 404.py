@@ -58,3 +58,6 @@ if doThat:
     columnss4.write("No, just... No.")
 
 #End---------------------------------------------------------------------------
+
+if doThat:
+    columnss2.markdown("No but you *actually* have to close the tab in you browser.")
