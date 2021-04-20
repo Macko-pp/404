@@ -55,9 +55,6 @@ if arr == 3:
 doThat = columns4.button("Do That")
 columnss1, columnss2, columss3, columnss4, columnss5 = st.beta_columns(5)
 if doThat:
-    columnss4.write("No, just... No.")
+    columnss4.markdown("No but you *actually* have to close the tab in you browser.")
 
 #End---------------------------------------------------------------------------
-
-if doThat:
-    columnss2.markdown("No but you *actually* have to close the tab in you browser.")
