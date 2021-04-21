@@ -25,7 +25,7 @@ colu1, colu2, colu3, colu4, colu5 = st.beta_columns(5)
 colum1, colum2, colum3, colum4, colum5 = st.beta_columns(5)
 
 if goBack:
-    #webbrowser.open('https://share.streamlit.io/macko-py/aloeverawebsite/main/EnglishWebsite.py')
+    webbrowser.open('https://share.streamlit.io/macko-py/aloeverawebsite/main/EnglishWebsite.py')
     colu4.write("SIKE! You gotta close the tab")
     arr = 2
 
