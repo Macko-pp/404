@@ -25,7 +25,6 @@ colu1, colu2, colu3, colu4, colu5 = st.beta_columns(5)
 colum1, colum2, colum3, colum4, colum5 = st.beta_columns(5)
 
 if goBack:
-    #webbrowser.open('https://share.streamlit.io/macko-py/aloeverawebsite/main/EnglishWebsite.py')
     colu4.write("SIKE! You gotta close the tab")
     arr = 2
 
@@ -56,7 +55,4 @@ doThat = columns4.button("Do That")
 columnss1, columnss2, columss3, columnss4, columnss5 = st.beta_columns(5)
 if doThat:
     columnss4.markdown("No but you *actually* have to close the tab in you browser.")
-
-#Rick-Roll---------------------------------------------------------------------
-
-st.video("RickRoll.mp4")
+    col1.video("RickRoll.mp4")
